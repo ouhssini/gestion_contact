@@ -94,7 +94,7 @@ A beautiful, modern contact management application built with Laravel and styled
 
 
 ### Category Details Page
-![Categories details page](./public/images/catdet.png)
+![Categories details page](./public/images/catedet.png)
 
 ### Trash Management
 ![ deleted accounts index ](./public/images/supp.png)
