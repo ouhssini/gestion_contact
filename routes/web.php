@@ -17,7 +17,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('contacts/trashed', [ContactController::class, 'deletedContacts'])->name('contact.trashed');
     Route::post('contacts/{contact}/toggle-favorite', [ContactController::class, 'toggleFavorite'])->name('contacts.toggleFavorite');
     Route::post('contacts/{contact}/restore', [ContactController::class, 'restore'])->name('contacts.restore');
-    Route::post('contacts/{contact}/force-delete', [ContactController::class, 'forceDelete'])->name('contacts.forceDelete');
+    Route::delete('contacts/{contact}/force-delete', [ContactController::class, 'forceDelete'])->name('contacts.forceDelete');
     Route::post('contacts/empty-trash', [ContactController::class, 'emptyTrash'])->name('contacts.emptyTrash');
     Route::resource('contacts', ContactController::class);
     Route::resource('categories', CategoryController::class);
