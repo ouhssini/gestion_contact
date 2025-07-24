@@ -65,8 +65,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{{ route('contacts.trashed') }}"
-                            class="flex items-center px-4 py-3 text-gray-300 rounded-lg hover:bg-slate-700/50 hover:text-white transition-colors {{ request()->routeIs('contacts.trashed') ? 'bg-slate-700/50 text-cyan-400' : '' }}">
+                        <a href="{{ route('contact.trashed') }}"
+                            class="flex items-center px-4 py-3 text-gray-300 rounded-lg hover:bg-slate-700/50 hover:text-white transition-colors {{ request()->routeIs('contact.trashed') ? 'bg-slate-700/50 text-cyan-400' : '' }}">
                             <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M5 8a2 2 0 012-2h10a2 2 0 012 2v10a2 2 0 01-2 2H7a2 2 0 01-2-2V8z"></path>
